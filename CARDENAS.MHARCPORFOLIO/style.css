@@ -1,0 +1,162 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-link i img{
+    margin: 10px;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+.social-link i img:hover{
+    background-color: rgb(157, 255, 0);
+    border-radius: 50px;
+}
+@media screen and (max-width:400px){
+    .social-link i img{
+       width: 20px;
+    }
+}
+.content h1{
+     color: rgb(255, 255, 255);
+}
+.logo h3 {
+    font-weight: bold;
+
+}
+@media screen and(max-width:420px){
+    .logo h3{
+        font-size: 20px;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+@media screen and (max-width:420px){
+    .icons i img{
+       width: 20px;
+    }
+}
+.container h3{
+    color: red;
+    font-style: oblique;
+}
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://64.media.tumblr.com/f1dfb175f16b39cde9abe1d43c99989c/36874fc561f55cf7-8d/s640x960/1fd6d9f074f7defd35dce2d0e435e2dd7c6cb7ac.gif);
+    background-size: cover;
+    background-position: 70%;
+
+}
+#navbar-color{
+    background-color: aliceblue;
+
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left 30px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.nav-link:hover{
+    color: green;
+}
+@media screen and (max-width:420px){
+    .content h1{
+        font-size: 30px;
+        
+    }
+}
+ #btn2 button{
+       width: 100px;
+       height: 30px;
+       background: transparent;
+       border: 1px solid black;
+       transition: 0.5s ease;
+       cursor: pointer;
+ }
+ #btn2 button:hover{
+       background-color: aliceblue;
+       
+ }
+  #tpc{
+       box-shadow: 0 0 5px black;
+       transition: 0.5s ease;
+       cursor: pointer;
+  }
+  #tpc:hover{
+       transform: translateY(-10px);
+  }
+   #c p{
+       font-weight: bold;
+   }
+   #btn3 {
+       text-align: center;
+   }
+   #btn3 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(221, 47, 47);
+    transition: 0.5s ease;
+    cursor: pointer;
+   }
+   #btn3 button:hover{
+    background-color: aliceblue;
+   }
+   @media screen and(max-width:870px){
+     #btn3 button{
+         width: 100px;
+     }
+   }
+   #btn4 button{
+    width: 150px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(221, 47, 47);
+    transition: 0.5s ease;
+    cursor: pointer;
+   }
+   #btn4 button:hover{
+    background-color: aliceblue;
+   }
+   #footer{
+     width: 100%;
+     background-color: black;
+     margin-top: 100px;
+   }
+   #footer h1{
+    color: aliceblue;
+    padding-top: 30px;
+   }
+   #footer p{
+     color: aliceblue;
+   }
+   .icons i{
+    color: aliceblue;
+    font-size: 30px;
+    cursor: pointer;
+   }
+   .copyright{
+     color: aliceblue0;
+     margin-top: 20px;
+   }
+   .credits{
+    color: aliceblue;
+    
+   }
